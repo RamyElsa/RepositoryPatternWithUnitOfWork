@@ -1,0 +1,212 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\V.StudioCode\\RepositoryPatternWithUnitOfWork\\RepositoryPatternWithUnitOfWorkApi\\RepositoryPatternWithUnitOfWorkApi.csproj": {}
+  },
+  "projects": {
+    "D:\\V.StudioCode\\RepositoryPatternWithUnitOfWork\\RepositoryPatternWithUnitOfWorkApi\\RepositoryPatternWithUnitOfWorkApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\V.StudioCode\\RepositoryPatternWithUnitOfWork\\RepositoryPatternWithUnitOfWorkApi\\RepositoryPatternWithUnitOfWorkApi.csproj",
+        "projectName": "RepositoryPatternWithUnitOfWorkApi",
+        "projectPath": "D:\\V.StudioCode\\RepositoryPatternWithUnitOfWork\\RepositoryPatternWithUnitOfWorkApi\\RepositoryPatternWithUnitOfWorkApi.csproj",
+        "packagesPath": "C:\\Users\\Ramy El-Sayed\\.nuget\\packages\\",
+        "outputPath": "D:\\V.StudioCode\\RepositoryPatternWithUnitOfWork\\RepositoryPatternWithUnitOfWorkApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ramy El-Sayed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\V.StudioCode\\RepositoryPatternWithUnitOfWork\\RepositoryPatternWithUnitOfWorkEF\\RepositoryPatternWithUnitOfWorkEF.csproj": {
+                "projectPath": "D:\\V.StudioCode\\RepositoryPatternWithUnitOfWork\\RepositoryPatternWithUnitOfWorkEF\\RepositoryPatternWithUnitOfWorkEF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\V.StudioCode\\RepositoryPatternWithUnitOfWork\\RepositoryPatternWithUnitOfWorkCore\\RepositoryPatternWithUnitOfWorkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\V.StudioCode\\RepositoryPatternWithUnitOfWork\\RepositoryPatternWithUnitOfWorkCore\\RepositoryPatternWithUnitOfWorkCore.csproj",
+        "projectName": "RepositoryPatternWithUnitOfWorkCore",
+        "projectPath": "D:\\V.StudioCode\\RepositoryPatternWithUnitOfWork\\RepositoryPatternWithUnitOfWorkCore\\RepositoryPatternWithUnitOfWorkCore.csproj",
+        "packagesPath": "C:\\Users\\Ramy El-Sayed\\.nuget\\packages\\",
+        "outputPath": "D:\\V.StudioCode\\RepositoryPatternWithUnitOfWork\\RepositoryPatternWithUnitOfWorkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ramy El-Sayed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\V.StudioCode\\RepositoryPatternWithUnitOfWork\\RepositoryPatternWithUnitOfWorkEF\\RepositoryPatternWithUnitOfWorkEF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\V.StudioCode\\RepositoryPatternWithUnitOfWork\\RepositoryPatternWithUnitOfWorkEF\\RepositoryPatternWithUnitOfWorkEF.csproj",
+        "projectName": "RepositoryPatternWithUnitOfWorkEF",
+        "projectPath": "D:\\V.StudioCode\\RepositoryPatternWithUnitOfWork\\RepositoryPatternWithUnitOfWorkEF\\RepositoryPatternWithUnitOfWorkEF.csproj",
+        "packagesPath": "C:\\Users\\Ramy El-Sayed\\.nuget\\packages\\",
+        "outputPath": "D:\\V.StudioCode\\RepositoryPatternWithUnitOfWork\\RepositoryPatternWithUnitOfWorkEF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ramy El-Sayed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\V.StudioCode\\RepositoryPatternWithUnitOfWork\\RepositoryPatternWithUnitOfWorkCore\\RepositoryPatternWithUnitOfWorkCore.csproj": {
+                "projectPath": "D:\\V.StudioCode\\RepositoryPatternWithUnitOfWork\\RepositoryPatternWithUnitOfWorkCore\\RepositoryPatternWithUnitOfWorkCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
